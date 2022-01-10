@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crud">
         <activity
+            android:name=".DashMenu"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
