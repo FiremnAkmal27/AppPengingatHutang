@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        val dashboardpage = Intent(this, Login::class.java)
+        val dashboardpage = Intent(this, DashMenu::class.java)
 
         startActivity(dashboardpage)
     }

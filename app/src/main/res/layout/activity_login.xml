@@ -11,14 +11,16 @@
 
     <TextView
         android:id="@+id/judul"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Reminds Your    $$$"
+        android:text="Aplikasi Pengingat Hutang"
         android:textAlignment="center"
         android:textColor="#81C2ED"
-        android:textSize="65dp"
+        android:textSize="50dp"
         android:textStyle="bold"
 
         />
@@ -29,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/judul"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/edit_round"
         android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
